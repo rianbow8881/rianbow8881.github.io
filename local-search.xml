@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>Java Random 随机数</title>
+    <link href="/2020/02/17/2020-2-17-Java-Random-%E9%9A%8F%E6%9C%BA%E6%95%B0/"/>
+    <url>/2020/02/17/2020-2-17-Java-Random-%E9%9A%8F%E6%9C%BA%E6%95%B0/</url>
+    
+    <content type="html"><![CDATA[<h2 id="Random-类随机数"><a href="#Random-类随机数" class="headerlink" title="Random 类随机数"></a>Random 类随机数</h2><pre><code class="java">/** * Random类 生成随机数 * 1 导包 * import java.util.Random; * * 2 创建 * Random r = new Random; * * 3 使用 *获取一个随机数字  int   （范围数int所有范围  有正负两种 int num = r.nxetInt（）； *                      参数代表范围   左闭右开 int num = r.nxetInt（3）； *                      代表的含有是 【 0 ，3 ）也就是 0～2 */public class RandomeDome01 {    public static void main(String[] args) {        Random r = new Random();        int num = r.nextInt();        System.out.println(num);    }}</code></pre><h2 id="根据int-变量n的值-来获取随机数字-范围是【1，n】可以取到1-也可以取到n"><a href="#根据int-变量n的值-来获取随机数字-范围是【1，n】可以取到1-也可以取到n" class="headerlink" title="根据int 变量n的值 来获取随机数字  范围是【1，n】可以取到1 也可以取到n"></a>根据int 变量n的值 来获取随机数字  范围是【1，n】可以取到1 也可以取到n</h2><pre><code class="java">import java.util.Random;/** * 根据int 变量n的值 来获取随机数字  范围是【1，n】可以取到1 也可以取到n； * 思路 *      1，定义一个int变量n 随意赋值 *      2，要使用 Random 三个步骤  导包  创建  使用 *      3，如果写10 那么就是0～9 然而想要到是 1～10 可以发现 整体+1 即可 *      4，打印随机数字。 */public class Demo0 {    public static void main(String[] args) {        int n = 5;        Random r = new Random();       int result = r.nextInt(n) + 1 ;        System.out.println(result);    }}</code></pre><h2 id="循环100次"><a href="#循环100次" class="headerlink" title="循环100次"></a>循环100次</h2><pre><code class="java">import java.util.Random;public class Demo02 {    public static void main(String[] args) {        Random r = new Random();        for (int i = 0; i &lt; 100 ; i++) {//循环100次            int num = r.nextInt(10);            //重载  定义到数字0-9  左闭右开            System.out.println(num);        }    }}</code></pre><h2 id="数字小游戏"><a href="#数字小游戏" class="headerlink" title="数字小游戏"></a>数字小游戏</h2><pre><code class="java">import java.util.Random;import java.util.Scanner;/** * * 用代码模拟猜数字小游戏 *      先要产生一个随机数字  并且一但产生不能变化Random *      需要键盘输入  用到 Scanner *      获取键盘输入数字 用Scanner 当中的nextInt方法 *      已获得连个数字 判断 if 一下 *      如果太大提示太大并且重试 *      如果太小 提示太小 并且重试 *      如果猜中 游戏结束 *      重试 就是在来一次循环次数不定  用 while（true） * */public class Demo03 {    public static void main(String[] args) {        Random r = new Random();        int random = r.nextInt(10) + 1;//「1，100」        Scanner sc = new Scanner(System.in);        while (true){            System.out.println(&quot;请输入你猜的数字&quot;);            int guessNum = sc.nextInt();  //输入猜的数字            if (guessNum &gt; random){                System.out.println(&quot;太大了请重试&quot;);            }else if (guessNum &lt; random ){                System.out.println(&quot;太小了请重试&quot;);            }else {                System.out.println(&quot;猜中了&quot;);                break;            }        }        System.out.println(&quot;游戏结束&quot;);    }}</code></pre>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>Java 基础</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Hello World</title>
     <link href="/2020/02/15/hello-world/"/>
     <url>/2020/02/15/hello-world/</url>
