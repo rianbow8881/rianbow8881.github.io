@@ -23,6 +23,27 @@
   
   
   <entry>
+    <title>idea Git 项目回滚</title>
+    <link href="/2020/02/17/2020-2-17-idea-Git-%E9%A1%B9%E7%9B%AE%E5%9B%9E%E6%BB%9A/"/>
+    <url>/2020/02/17/2020-2-17-idea-Git-%E9%A1%B9%E7%9B%AE%E5%9B%9E%E6%BB%9A/</url>
+    
+    <content type="html"><![CDATA[<h2 id="1"><a href="#1" class="headerlink" title="1"></a>1</h2><p><img src="https://raw.githubusercontent.com/rianbow8881/tuchuang/master/221581968142_.pic_hd.jpg" srcset="/img/loading.gif" alt=""></p><h2 id="2"><a href="#2" class="headerlink" title="2"></a>2</h2><p><img src="https://raw.githubusercontent.com/rianbow8881/tuchuang/master/20200218144707.png" srcset="/img/loading.gif" alt=""></p><h2 id="3"><a href="#3" class="headerlink" title="3"></a>3</h2><p><img src="https://raw.githubusercontent.com/rianbow8881/tuchuang/master/20200218144940.png" srcset="/img/loading.gif" alt=""></p><h2 id="4"><a href="#4" class="headerlink" title="4"></a>4</h2><p><img src="https://raw.githubusercontent.com/rianbow8881/tuchuang/master/20200218145535.png" srcset="/img/loading.gif" alt=""></p><h2 id="5"><a href="#5" class="headerlink" title="5"></a>5</h2><p><img src="https://raw.githubusercontent.com/rianbow8881/tuchuang/master/20200218145853.png" srcset="/img/loading.gif" alt=""></p><p>mixed 默认方式，只保留源码，回退commit和index信息<br>soft 回退到某个版本，只回退了commit的信息，不会恢复到index file一级。如果还要提交，直接commit<br>hard 彻底回退，本地源码也会变成上一个版本内容</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>Git</tag>
+      
+      <tag>idea</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Hello World</title>
     <link href="/2020/02/15/hello-world/"/>
     <url>/2020/02/15/hello-world/</url>
@@ -30,48 +51,6 @@
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;</code></pre><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
     
     
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>节寰袁公传</title>
-    <link href="/2019/10/10/2019-10-10-%E8%8A%82%E5%AF%B0%E8%A2%81%E5%85%AC%E4%BC%A0/"/>
-    <url>/2019/10/10/2019-10-10-%E8%8A%82%E5%AF%B0%E8%A2%81%E5%85%AC%E4%BC%A0/</url>
-    
-    <content type="html"><![CDATA[<h2 id="节寰袁公传"><a href="#节寰袁公传" class="headerlink" title="节寰袁公传"></a>节寰袁公传</h2><p>朝代：<a href="https://www.gushimi.org/shiren/mingdai/" target="_blank" rel="noopener">明代</a>作者：<a href="https://www.gushimi.org/shiren/4062.html" target="_blank" rel="noopener">朱由检</a>更新时间：2018-09-25</p><p>袁公可立，字礼卿，以英年成进士，理苏郡报最①，召入西台。既上稍厌诸激聒，政府动以“卖直沽名”抑正论。公乃抗疏曰：“近年以来，议论繁多言词激切致干圣怒废斥者不止百十余人概目为卖直沽名夫卖直者退则不直者进沽名者斥则毁名者庸。”抗疏归。<br>凡公值事，多长算，得大体，洞于要会。方为苏理时，湖州董宗伯以厚赀为乱民所窘，哄甚，两台檄公解之。公至，即博收讼牒下各县以杀其势，徐取一二倡乱者抵法，事遂定。又值倭警，吴中豪子弟王士绣、乔一琦辈驰骤自命，怨家诋为不轨。两台急诇之。公独谓是狂生，无他。卒谳不得实，乃已。众谓公长者也。<br>及在登莱，方元宵宴客，有传辽将李性忠与张尔心谋叛者，诸监司怖甚。公问沈帅曰：“李性忠固公所用人，令何状？”沈帅百口保其无他。公曰：“吾固知其无他，但且令释兵柄安坐耳。”于是公之整暇②再见之矣。<br>又公为苏理时，以汛期出海澨③。有李弁者邀公饮，示三倭刀。公谛视还之。后半载，报海上擒倭二十人，覆夷器，则三刀俱在。公心疑之。亡何而琉球贡使至，称数月前有飘舟坠此岸，出其人视之，则皆琉球也。众咸谓公神明。<br>又公为苏理时，郡守石昆玉以廉直忤中丞。中丞露章劾之。事下四郡，四郡推公秉笔，公伸牍尽雪其冤，同列为缩项。公曰：“吾自任之！吾奈何以上台故诬贤太守？”谳成，对中丞诵之，其声琅琅。中丞愧甚，举屏自障。公读法声益厉，中丞遂自劾去。众咸谓公强项也。<br>及在御史台，值他御史触上怒，将廷杖，诸御史诣政府乞伸救，辅臣以上意为辞。公于末坐抗声曰：“特相公不肯耳！”辅臣拂然。先是雷震景德门，公上疏陈阚政，如郊祀、讲朝六七大事，章未下。政府用是谪公，再收再黜，以底于削甚哉！救之罔效也！<br>寿至七十有二卒。卒之前夕，有巨星陨西南，坠地有声。</p>]]></content>
-    
-    
-    
-    <tags>
-      
-      <tag>PS3</tag>
-      
-      <tag>Games</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>文章标题</title>
-    <link href="/2019/10/10/222222/"/>
-    <url>/2019/10/10/222222/</url>
-    
-    <content type="html"><![CDATA[<p>Mac 安装nodejs </p><p>nodejs， mark下 Mac 下 nodejs 的安装和检验，给自己留个标记，提高下以后的效率。</p><p>step 1：</p><p>访问nodejs官网，点击Current 区域稳定版，并下载<a href="https://nodejs.org/en/" target="_blank" rel="noopener">https://nodejs.org/en/</a></p><p><img src="https://img-blog.csdnimg.cn/20190430184514879.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3lzdDE5OTEwNzAy,size_16,color_FFFFFF,t_70" srcset="/img/loading.gif" alt="img"></p><p>step 2：</p><p>双击刚下载的文件，按步骤默认安装就行</p><p>step 3：</p><p>安装完成后打开终端，输入<br>npm -v<br>node -v<br>两个命令，如下图出现版本信息，说明安装成功。</p><p>出现对应的版本号！</p>]]></content>
-    
-    
-    
-    <tags>
-      
-      <tag>PS3</tag>
-      
-      <tag>Games</tag>
-      
-    </tags>
     
   </entry>
   
